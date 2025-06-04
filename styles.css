@@ -1,0 +1,123 @@
+
+#titulo_1{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    font-size: 500%;
+}
+#titulo:hover{
+    background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+}
+
+
+#titulo{
+    font-family: calc();
+    background-color: rgba(0, 0, 0, 0.47);
+    
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    font-size: 200%;
+    
+
+
+}
+
+.navbar{
+    width: 40%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.47);
+    
+    color: rgb(0, 0, 0);
+    opacity: .5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: left;
+}
+.navbar:hover{
+      background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+.container button{
+   background-color: rgba(255, 255, 255, 0.755);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: rgb(1, 51, 95);
+    border-radius: 10px;
+    width: 300px;
+    height: 10;
+    padding: 1px;
+    position: relative;
+    top: 100px;
+    bottom: 20px;
+
+    
+
+}
+.button:hover{
+    background-color: black;
+  color: #ffffff;
+  cursor: pointer;
+  
+
+
+}
+body:hover{
+    animation-duration: 2s;
+    background-image: url(/02-intro-web/assets/gal.jpg);
+}
+body{
+    text-align: center;
+    background-image:url(/02-intro-web/assets/4k.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 200;
+}
+.navbar_item--active{
+    display: inline-block;/*hace que la lista sea horiontal*/
+    padding: 10px;
+    border-radius: 10px;
+    color: wheat;
+}
+/*SOLO SE MANDA A LLAMA RLA ULTIMA PARTE DE LA CLASE*/
+
+.navbar_item{
+
+}
+
+.navbar{
+    color: #ffffff;
+    font-family: cursive;
+}
+body {
+  font-size: 16px;
+}
+
+/* Estilos para pantallas medianas (por ejemplo, tablets) */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Estilos para pantallas grandes (por ejemplo, desktops) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+/* Puedes agregar más rangos de ancho de pantalla si lo necesitas */
+@media (min-width: 1200px) {
+  body {
+    font-size: 22px;
+  }
+}
